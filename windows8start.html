@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Modern UI CSS">
+    <meta name="author" content="Sergey Pimenov">
+    <meta name="keywords" content="windows 8, modern style, modern ui, style, modern, css, framework">
+
+    <link href="Start/css/modern.css" rel="stylesheet">
+    <link href="Start/css/theme-dark.css" rel="stylesheet">
+
+    <script src="Start/js/jquery-1.8.2.min.js"></script>
+    <script src="Start/js/google-analytics.js"></script>
+    <script src="Start/js/jquery.mousewheel.min.js"></script>
+    <script src="Start/js/github.info.js"></script>
+    <script src="Start/js/tile-slider.js"></script>
+    <script src="Start/js/start-menu.js"></script>
+    <script src="Start/js/tile-drag.js"></script>
+
+    <title>Start</title>
+
+<style>
+body {
+background: #1d1d1d url(images/w8.jpg) no-repeat fixed;
+}
+</style>
+    
+</head>
+<body class="metrouicss">
+<div class="page secondary fixed-header">
+    <div class="page-header ">
+        <div class="page-header-content">
+            <div class="user-login">
+                <a>
+                    <div class="name">
+                        <span class="first-name">Banni</span>
+                        <span class="last-name">Pebriansyah</span>
+                    </div>
+                    <div class="avatar">
+                        <img src="images/SAM_0263.JPG"/>
+                        <i class="fg-color-white"></i>
+                    </div>
+                </a>
+            </div>
+
+            <h1 class="fg-color-white">Start</h1>
+        </div>
+    </div>
+
+    <div class="page-region">
+        <div class="page-region-content tiles">
+
+<a onclick="window.open('http://maps.google.com')">
+            <div class="tile-group tile-drag">
+                <div class="tile bg-color-purple icon">
+                    <div class="tile-content">
+	 <img src="images/maps.png" alt="">
+                    </div>
+                    <div class="brand">
+                        <span class="name">Maps</span>
+                    </div>
+                </div>
+</a>
+
+
+
+                <a id="qq" onclick="console.log('clicked')" class="tile image outline-color-green">
+                    <div class="tile-content">
+                        <img src="images/SAM_0258.JPG" alt="">
+                    </div>
+                </a>
+
+                <div class="tile bg-color-purpleDark icon">
+                    <div class="tile-content">
+                        <img src="images/messaging.png"/>
+                    </div>
+                    <div class="brand">
+                        <div class="badge">10</div>
+                        <div class="name">Messaging</div>
+                    </div>
+                </div>
+
+<a onclick="window.open('http://www.vimeo.com')">
+                <div class="tile bg-color-orangeDark icon">
+                    <b class="check"></b>
+                    <div class="tile-content">
+                        <img src="images/Video128.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">Video</span>
+                    </div>
+                </div>
+</a>
+
+				<a onclick="window.open('index.html')">
+                <div class="tile double image">
+                    <div class="tile-content">
+                        <img src="images/Screenshot (80).png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">Home</span>
+                        <div class="badge bg-color-orange">6</div>
+                    </div>
+                </div>
+
+				<a onclick="window.open('https://www.microsoft.com/en-us/store/top-free/apps/pc')">
+                <div class="tile bg-color-green icon">
+                    <div class="tile-content">
+                        <img src="images/Market128.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Store</span>
+                        <span class="badge">6</span>
+                    </div>
+                </div>
+
+<a onclick="window.open('https://search.4shared.com/q/CAQD/1/music')">
+                <div class="tile bg-color-red icon">
+                    <div class="tile-content">
+                        <img src="images/Music128.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">Music</span>
+                    </div>
+                </div>
+</a>
+
+	<div class="tile bg-color-darken icon">
+                    <div class="tile-content">
+                        <img src="images/news.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">News</span>
+                    </div>
+                </div>
+
+<a onclick="window.open('https://twitter.com/')">
+                <div class="tile double bg-color-blue">
+                    <div class="tile-content">
+                        <img src="images/twitter.png" class="place-left"/>
+                        <h3 style="margin-bottom: 5px;">bannipebriansyah</h3>
+                        <p>
+                           I have one brother and one sister. 
+                        </p>
+                        <h5>RT @sadiartana</h5>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Twitter</span>
+                    </div>
+                </div>
+</a>
+
+<a onclick="window.open('http://www.youtube.com')">
+                <div class="tile bg-color-redLight icon">
+                    <div class="tile-content">
+                        <img src="images/YouTube128.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">YouTube</span>
+                    </div>
+                </div>
+</a>
+
+                <div class="tile double" data-role="tile-slider" data-param-period="5000">
+                    <div class="tile-content  bg-color-purple">
+                        <h2>Firman@xxx.com</h2>
+                        <h5>Perihal: Undangan</h5>
+                        <p>
+                            Diharapkan datang pada jam 09:00 WIB pada Jalan...
+                        </p>
+                    </div>
+                    <div class="tile-content  bg-color-blueDark">
+                        <h2>Facebook</h2>
+                        <h5>Perihal : Tinggal Satu Lang...</h5>
+                        <p>
+                            Klik tautan dibawah untuk menyelesaikan pendaftaran...
+                        </p>
+                    </div>
+                    <div class="brand">
+                        <div class="badge">2</div>
+                        <img class="icon" src="images/Mail128.png"/>
+                    </div>
+                </div>
+
+                <div class="tile double image-slider" data-role="tile-slider" data-param-period="3000" data-param-direction="left">
+                    <div class="tile-content">
+                        <img src="images/1.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/2.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/3.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/4.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/5.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/6.jpg" alt="">
+                    </div>
+                </div>
+
+<a onclick="window.open('https://www.facebook.com/banny.pebriansyah')">
+	<div class="tile bg-color-blueDark icon">
+                    <div class="tile-content">
+                        <img src="images/fb_128.png" alt="" />
+                    </div>
+                    <div class="brand">
+	<div class="badge">26</div>
+                        <span class="name">Facebook</span>
+                    </div>
+                </div>
+</a>
+
+	<div class="tile bg-color-teal icon">
+                    <div class="tile-content">
+                        <img src="images/Calendar128.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">Calender</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tile-group tile-drag image-slider" data-role="tile-slider" data-param-period="1000">
+                <div class="tile image outline-color-green">
+                    <div class="tile-content">
+                        <img src="images/SAM_0228 - Copy.JPG" alt="">
+                    </div>
+                </div>
+
+<div class="tile bg-color-orangeDark icon">
+                    <b class="check"></b>
+                    <div class="tile-content">
+                        <img src="images/reader.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">Reader</span>
+                    </div>
+                </div>
+
+<div class="tile bg-color-yellow icon">
+                    <b class="check"></b>
+                    <div class="tile-content">
+                        <img src="images/html5.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">HTML5</span>
+                    </div>
+                </div>
+
+<a onclick="window.open('http://forum.xda-developers.com/general/help/how-to-root-sm-g318hz-samsung-galaxy-t3221892')">
+	<div class="tile bg-color-blueDark icon">
+                    <div class="tile-content">
+                        <img src="images/unduhan.png" alt="" />
+                    </div>
+                    <div class="brand">
+                        <span class="name">XDA Developers</span>
+                    </div>
+                </div>
+</a>
+
+                <div class="tile double image-slider" data-role="tile-slider" data-param-period="4000" data-param-direction="right">
+                    <div class="tile-content">
+                        <img src="images/freshfruit1.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/freshfruit2.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/freshfruit3.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/freshfruit4.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/freshfruit5.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/freshfruit6.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/freshfruit7.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/freshfruit8.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/freshfruit9.jpg" alt="">
+                    </div>
+                    <div class="brand">
+                        <span class="name">Fresh Fruits</span>
+                        <div class="badge bg-color-red">9</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="tile-group tile-drag">
+                <div class="tile bg-color-blue icon">
+                    <div class="tile-content">
+                        <img src="images/InternetExplorer128.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Internet Explorer</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/excel2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Excel 2016</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/word2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Word 2016</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/onenote2013icon.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">OneNote 2016</span>
+                    </div>
+                </div>
+                <div class="tile double image-set">
+                    <div class="tile-content">
+                        <img src="images/1.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/2.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/3.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/4.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/5.jpg" alt="">
+                    </div>
+                    <div class="brand">
+                        <span class="name">Photos</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tile-group">
+                <div class="tile double image">
+                    <div class="tile-content">
+                        <img src="images/eagle.jpg" alt="" />
+                    </div>
+                    <div class="brand bg-color-orange">
+                        <img class="icon" src="images/Rss128.png"/>
+                        <p class="text">Ini adalah elang gurun. Dia sangat lapar dan marah.</p>
+                        <div class="badge">10</div>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/aimp.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">AIMP3</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/avast.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Avast !</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/bubbletown.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Bubble Town</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/mfirefox.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Mozilla Firefox</span>
+                    </div>
+                </div>
+            </div>
+
+           <div class="tile-group tile-drag">
+
+                <div class="tile double" data-role="tile-slider" data-param-period="4000" data-param-direction="down">
+                    <div class="tile-content  bg-color-orange">
+                        <img src="images/15.png" class="place-left"/>
+                        <h3 style="margin-bottom: 5px;">Cimahi</h3>
+                        <h5>34&deg;C</h5>
+                        <p>
+                           Cerah dengan sedikit berawan
+                        </p>
+                    </div>
+                    <div class="tile-content bg-color-darken">
+                        <img src="images/02.png" class="place-left"/>
+                        <h3 style="margin-bottom: 5px;">Cibiru</h3>
+                        <h5>32&deg;C</h5>
+                        <p>
+                           Hujan deras disertai petir
+                        </p>
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/06.png" class="place-left"/>
+                        <h3 style="margin-bottom: 5px;">Ujungberung</h3>
+                        <h5>33&deg;C</h5>
+                        <p>
+                           Hujan gerimis
+                        </p>
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/01.png" class="place-left"/>
+                        <h3 style="margin-bottom: 5px;">Cileunyi</h3>
+                        <h5>N/A</h5>
+                        <p>
+                           Data gagal diakses. Reload ?
+                        </p>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Weather</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/kies.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Samsung Kies</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/kmplayer.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">KMPlayer</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/picasa.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Picasa 3</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/ps.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Adobe Photoshop</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/andro_emu.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Android Emulator</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/angry_birds.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Angry Birds</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/metro_twit.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Metro Twit</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/kakaotalk.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Kakao Talk</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/skype.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Skype</span>
+                    </div>
+                </div>
+
+                <div class="tile icon">
+                    <div class="tile-content">
+                        <img src="images/tagaini_jisho.png"/>
+                    </div>
+                    <div class="brand">
+                        <span class="name">Tagaini Jisho</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tile-group">
+                <div class="tile quadro double-vertical image-set">
+                    <div class="tile-content">
+                        <img src="images/bear.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/eagle.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/fox.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/panther.jpg" alt="">
+                    </div>
+                    <div class="tile-content">
+                        <img src="images/rat.jpg" alt="">
+                    </div>
+                    <div class="brand">
+                        <span class="name">Wildlife</span>
+                    </div>
+                </div>
+            </div>
+</div>
+    </div>
+</div>
+<?php include("counter.php");?>
+</body>
+</html>
